@@ -20,18 +20,18 @@ The network is designed with security, scalability and maintainability in mind. 
 <img width="305" height="156" alt="image" src="https://github.com/user-attachments/assets/32520f10-a151-4fab-94ed-111736d29948" />
 
 ## Technologies
-VLAN
-802.1Q Trunk
-Router-on-a-Stick
-Static IP Addressing
-OSPF Multi-Area
-NAT/PAT
-SSH
-Standard ACL
-Extended ACL
-STP
-EtherChannel (LACP)
-Port Security
+VLAN,
+802.1Q Trunk,
+Router-on-a-Stick,
+Static IP Addressing,
+OSPF Multi-Area,
+NAT/PAT,
+SSH,
+Standard ACL,
+Extended ACL,
+STP,
+EtherChannel (LACP),
+Port Security.
 ## Verification
 <img width="288" height="253" alt="image" src="https://github.com/user-attachments/assets/42799c6f-05c8-4e50-8626-1dbd2d7dfa14" />
 
