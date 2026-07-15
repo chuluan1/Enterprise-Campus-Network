@@ -13,19 +13,11 @@ The network is designed with security, scalability and maintainability in mind. 
 ## Topology
 <img width="1342" height="702" alt="image" src="https://github.com/user-attachments/assets/2809cf5b-8616-49a7-a494-14686317cc42" />
 ## IP Addressing Plan
-| VLAN | Department | Network         | Gateway      |
-| ---- | ---------- | --------------- | ------------ |
-| 10   | Sales      | 192.168.10.0/24 | 192.168.10.1 |
-| 20   | HR         | 192.168.20.0/24 | 192.168.20.1 |
-| 30   | IT         | 192.168.30.0/24 | 192.168.30.1 |
-| 40   | Guest      | 192.168.40.0/24 | 192.168.40.1 |
+<img width="460" height="161" alt="image" src="https://github.com/user-attachments/assets/bd0fa953-c256-4bd9-a418-ea8896459647" />
+
 ## Devices
-| Device  | Role                 |
-| ------- | -------------------- |
-| R1      | Internet Edge Router |
-| R2      | Core Router          |
-| SW1     | Access Switch        |
-| SW2     | Access Switch        |
+<img width="305" height="156" alt="image" src="https://github.com/user-attachments/assets/32520f10-a151-4fab-94ed-111736d29948" />
+
 ## Technologies
 VLAN
 802.1Q Trunk
@@ -40,22 +32,10 @@ STP
 EtherChannel (LACP)
 Port Security
 ## Verification
-| Feature            | Status |
-| ------------------ | ------ |
-| Inter-VLAN Routing | Đ      |
-| Internet Access    | Đ      |
-| OSPF Neighbor      | Đ      |
-| SSH Login          | Đ      |
-| ACL Filtering      | Đ      |
-| Port Security      | Đ      |
-| EtherChannel       | Đ      |
-| STP                | Đ      |
+<img width="288" height="253" alt="image" src="https://github.com/user-attachments/assets/42799c6f-05c8-4e50-8626-1dbd2d7dfa14" />
+
 ## Common Issues
-| Issue              | Solution              |
-| ------------------ | --------------------- |
-| OSPF Neighbor Down | Check Area & Wildcard |
-| Internet Failed    | Check NAT             |
-| Ping Failed        | Check VLAN & Trunk    |
-| SSH Failed         | Check VTY & ACL       |
+<img width="390" height="150" alt="image" src="https://github.com/user-attachments/assets/adac0f96-caeb-49f6-b811-570c0727f0eb" />
+
 ## Result
 Successfully implemented a secure enterprise network using Cisco IOS and EVE-NG.
