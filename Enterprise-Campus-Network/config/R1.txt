@@ -1,6 +1,6 @@
-Current configuration : 1564 bytes
+Current configuration : 1600 bytes
 !
-! Last configuration change at 09:14:34 EET Wed Jul 15 2026
+! Last configuration change at 11:58:55 EET Wed Jul 15 2026
 !
 version 15.4
 service timestamps debug datetime msec
@@ -101,6 +101,7 @@ ip nat inside source list 1 interface Ethernet0/0 overload
 !
 !
 access-list 1 permit 192.168.0.0 0.0.255.255
+access-list 10 permit 192.168.1.100
 access-list 10 permit 192.168.30.0 0.0.0.255
 !
 control-plane
