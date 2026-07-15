@@ -12,6 +12,7 @@ The network is designed with security, scalability and maintainability in mind. 
 - Enable remote management using SSH
 ## Topology
 <img width="1342" height="702" alt="image" src="https://github.com/user-attachments/assets/2809cf5b-8616-49a7-a494-14686317cc42" />
+
 ## IP Addressing Plan
 <img width="460" height="161" alt="image" src="https://github.com/user-attachments/assets/bd0fa953-c256-4bd9-a418-ea8896459647" />
 
